@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".modules.main.MainActivity"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_banner_id_test"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_label_game_numbers"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerGameNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="20sp"
+            app:ms_popup_padding_bottom="8dp"
+            app:ms_popup_padding_top="8dp" />
+
+        <Button
+            android:id="@+id/buttonGenerateNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/main_label_button"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+                android:id="@+id/textViewNumbersMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/main_message_game_numbers"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textStyle="italic"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/numbersContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            app:flexWrap="wrap" />
+    </LinearLayout>
+</ScrollView>

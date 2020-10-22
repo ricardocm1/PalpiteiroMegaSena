@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270701608779",
+    "firebase_url": "https://palpiteiro-mega-sena-718b7.firebaseio.com",
+    "project_id": "palpiteiro-mega-sena-718b7",
+    "storage_bucket": "palpiteiro-mega-sena-718b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270701608779:android:9b28913cfa2791a4",
+        "android_client_info": {
+          "package_name": "com.rcmdev.android.palpiteiromegasena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270701608779-uc7ipnbpc98e19r9lkffofasbll4sejl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp3e_e4T16ezMFxnOfZurljV6NysgIGmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270701608779-uc7ipnbpc98e19r9lkffofasbll4sejl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

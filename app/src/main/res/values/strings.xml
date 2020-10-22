@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Palpiteiro Mega-Sena</string>
+    <string name="title_activity_main">Palpiteiro Mega-Sena</string>
+
+    <string name="title_activity_splash">Palpiteiro</string>
+    <string name="subtitle_activity_splash">Mega-Sena</string>
+    <string name="main_label_game_numbers">Selecione a quantidade de números da aposta:</string>
+    <string name="main_message_game_numbers">Números gerados. Boa sorte!</string>
+    <string name="main_label_button">Gerar números</string>
+
+    <string name="admob_banner_id">ca-app-pub-7480636634678445/6827816089</string>
+    <string name="admob_banner_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_app_id">ca-app-pub-7480636634678445~1220266188</string>
+</resources>
